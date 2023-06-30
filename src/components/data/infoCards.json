@@ -1,7 +1,7 @@
  {
     "cards": [
       {
-        "icon": "/Images/free-shipping.svg",
+        "icon": "../../Images/free-shipping.svg",
         "title": "Free Shipping",
         "description": "Free Shipping on Orders Over $50"
       },

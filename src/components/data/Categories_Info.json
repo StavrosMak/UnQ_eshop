@@ -2,9 +2,9 @@
     "categories": [
         {
             "categoryID": 1,
-            "CategoryTitle": "Men Fashion",
+            "CategoryTitle": "Men Fashion2",
             "CategoryName": "men's clothing",
-            "categoryImage": "/Images/men_fashion3-min.JPG",
+            "categoryImage": "../../Images/men_fashion3-min.jpg",
             "categoryUrl": "/products?category=men's clothing"
         },
         {
