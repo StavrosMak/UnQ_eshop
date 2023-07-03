@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import "./FeaturedCollectionSection.css";
 import ProductCard from "../Product/ProductCard";
 import { motion } from 'framer-motion'
-import categoriesData from '../data/Categories_Info.json'
+import categories from '../data/CategoryData'
 import useFetch from "../../CustomHooks/useFetch"
 const productLimit = 4;
 
 
 export default function FeaturedCollections() {
     const [products, setProducts] = useState([]);
-    const [category, setCategory] = useState(categoriesData.categories[0].CategoryName);
+    const [category, setCategory] = useState(categories[0].CategoryName);
 
     const { data: fetchedProducts, loading: isLoading } = useFetch('https://fakestoreapi.com/products');
 
@@ -29,7 +29,7 @@ export default function FeaturedCollections() {
                 </div>
                 <div className="featuredCollections--List">
                     <ul>
-                        {categoriesData.categories.map((categoryItem) => (
+                        {categories.map((categoryItem) => (
                             <li key={categoryItem.categoryID}>
                                 <button
                                     className={category === categoryItem.CategoryName ? 'active' : ''}
