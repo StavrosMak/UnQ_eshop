@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecommerce/static/css/main.b2d2f02f.css",
-    "main.js": "/ecommerce/static/js/main.64bb7c3a.js",
+    "main.js": "/ecommerce/static/js/main.f93eb5d0.js",
     "static/media/contactPageBackground.jpg": "/ecommerce/static/media/contactPageBackground.e12f3b91663cd7da757e.jpg",
     "static/media/womanFashion3-min.jpg": "/ecommerce/static/media/womanFashion3-min.32e1044e9fe49db82f94.jpg",
     "static/media/banner10-min.jpg": "/ecommerce/static/media/banner10-min.1c78744fb4d640aa1c9c.jpg",
@@ -11,10 +11,10 @@
     "static/media/logo.png": "/ecommerce/static/media/logo.32c81f215d13ab17fb49.png",
     "index.html": "/ecommerce/index.html",
     "main.b2d2f02f.css.map": "/ecommerce/static/css/main.b2d2f02f.css.map",
-    "main.64bb7c3a.js.map": "/ecommerce/static/js/main.64bb7c3a.js.map"
+    "main.f93eb5d0.js.map": "/ecommerce/static/js/main.f93eb5d0.js.map"
   },
   "entrypoints": [
     "static/css/main.b2d2f02f.css",
-    "static/js/main.64bb7c3a.js"
+    "static/js/main.f93eb5d0.js"
   ]
 }
