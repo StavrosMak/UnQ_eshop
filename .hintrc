@@ -12,6 +12,7 @@
           "link[referrerpolicy]"
         ]
       }
-    ]
+    ],
+    "compat-api/css": "off"
   }
 }

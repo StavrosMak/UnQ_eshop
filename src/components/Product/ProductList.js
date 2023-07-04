@@ -14,7 +14,7 @@ export default function ProductList({ toggleSidebar, showSidebar }) {
     setSelectedCategories(selectedCategories);
   };
 
-  const { data, error, isLoading } = useFetch('https://fakestoreapi.com/products');
+  const { data, error} = useFetch('https://fakestoreapi.com/products');
 
   useEffect(() => {
     if (data) {
@@ -28,9 +28,7 @@ export default function ProductList({ toggleSidebar, showSidebar }) {
     }
   }, [data, selectedCategories]);
 
-  // if (isLoading) {
-    // return <p>Loading...</p>;
-  // }
+
   if (error) {
     return <p>Error: {error.message}</p>;
   }
@@ -50,15 +48,12 @@ export default function ProductList({ toggleSidebar, showSidebar }) {
             Filter
           </button>
         </div>
-        {isLoading ? (
-          <p>Loading...</p>
-        ) : (
-          <motion.div layout className="productListContent">
-            {products.map((product) => (
-              <ProductCard product={product} key={product.id} />
-            ))}
-          </motion.div>
-        )}
+        <motion.div layout className="productListContent">
+          {products.map((product) => (
+            <ProductCard product={product} key={product.id} />
+          ))}
+        </motion.div>
+
       </div>
     </div>
   );

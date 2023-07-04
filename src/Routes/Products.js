@@ -13,7 +13,7 @@ export default function Products() {
         <motion.div className="productPageContainer" style={{ minHeight: '100vh' }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.2 }}
+            transition={{ duration: 0.5 }}
             exit={{ opacity: 0 }}
         >
             <ProductList toggleSidebar={toggleSidebar} showSidebar={showSidebar} />

@@ -10,7 +10,7 @@ export default function ProductCard({  product }) {
   return (
     <motion.div layout className="productCard" key={product.id}>
       <div className="productImg">
-        <img loading="lazy" src={product.image} alt="productImage" />
+        <img src={product.image} alt="" />
       </div>
 
       <div className="productInfo">

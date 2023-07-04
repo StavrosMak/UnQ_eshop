@@ -3,7 +3,6 @@ import Info from "../components/InfoSection/info";
 import FeaturedCollections from "../components/FeaturedCollectionSection/FeaturedCollectionSection"
 import CategorySection from "../components/CategoriesSection/CategorySection";
 import { motion } from 'framer-motion'
-
 export default function Home() {
     return (
         <motion.div

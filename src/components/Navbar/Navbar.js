@@ -48,9 +48,9 @@ export default function Navbar() {
                             )
                         })}
                         <li className="mobile-actions">
-                            <button aria-label="ProfileActions" onClick={() => { setModal(true); }}>Sign Up</button>
+                            <button title="actions" aria-label="ProfileActions" onClick={() => { setModal(true); }}>Sign Up</button>
                             <Modal open={openModal} onClose={() => setModal(false)} />
-                            <button onClick={toggleCart}>Cart<span className="cartLength">({cartLength})</span></button>
+                            <button title="Cart" onClick={toggleCart}>Cart<span className="cartLength">({cartLength})</span></button>
                         </li>
 
                     </ul>
@@ -62,7 +62,7 @@ export default function Navbar() {
                     </div>
                     <Modal open={openModal} onClose={() => setModal(false)} />
                     <motion.div animate={animateCart ? { scale: [1, 1.2, 1], transition: { duration: 0.2 } } : {}} className="cartIconSection">
-                        <button onClick={toggleCart}>
+                        <button title="Cart" onClick={toggleCart}>
                             <i className="fa-solid fa-cart-shopping">
 
                             </i>
