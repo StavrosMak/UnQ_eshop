@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ecommerce/static/css/main.d90fe681.css",
+    "main.css": "/ecommerce/static/css/main.783cee4e.css",
     "main.js": "/ecommerce/static/js/main.fa20471a.js",
     "static/media/contactPageBackground.jpg": "/ecommerce/static/media/contactPageBackground.e12f3b91663cd7da757e.jpg",
     "static/media/womanFashion3-min.jpg": "/ecommerce/static/media/womanFashion3-min.32e1044e9fe49db82f94.jpg",
@@ -13,11 +13,11 @@
     "static/media/free-shipping.svg": "/ecommerce/static/media/free-shipping.fd6a8f8cf6d74d46a91430b8389dba52.svg",
     "static/media/money-recive-svgrepo-com.svg": "/ecommerce/static/media/money-recive-svgrepo-com.9e044f54a072241032f574a947fbaa0f.svg",
     "index.html": "/ecommerce/index.html",
-    "main.d90fe681.css.map": "/ecommerce/static/css/main.d90fe681.css.map",
+    "main.783cee4e.css.map": "/ecommerce/static/css/main.783cee4e.css.map",
     "main.fa20471a.js.map": "/ecommerce/static/js/main.fa20471a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d90fe681.css",
+    "static/css/main.783cee4e.css",
     "static/js/main.fa20471a.js"
   ]
 }
