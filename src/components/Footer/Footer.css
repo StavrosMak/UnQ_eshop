@@ -39,13 +39,18 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1em;
+    gap: .5em;
     margin: auto;
     text-decoration: none;
     list-style: none;
+    /* background-color: lightblue; */
+}
+.FooterItem h3{
+    border-bottom: 1px solid #fff;
+ 
 }
 
-
+ 
 .Footerlinks ul li a {
     color: #fff;
     text-decoration: none;

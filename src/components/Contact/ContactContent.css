@@ -22,7 +22,7 @@
     align-items: center;
 }
 
-.contactInfo {
+.ContactContent .contactInfo {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -118,7 +118,7 @@ textarea {
         margin: 0.9em;
     }
 
-    .contactInfo {
+    .ContactContent .contactInfo {
         display: none;
     }
 }

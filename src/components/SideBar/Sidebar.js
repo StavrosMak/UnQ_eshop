@@ -6,6 +6,7 @@ export default function Sidebar(props) {
 
     const [selectedCategories, setSelectedCategories] = useState([]); //selectedCategories used to check the sidebar checkboxes.
     const { onCategoryChange, toggleSidebar, showSidebar } = props;//destructuring assignment  
+    
     useEffect(() => {
         
         const queryParams = new URLSearchParams(window.location.search);
@@ -14,8 +15,7 @@ export default function Sidebar(props) {
             // use the parameters.
             setSelectedCategories([categoryParam]);
             onCategoryChange([categoryParam]); //to pass the categoryChange back to productList
-        }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
+        }// eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
 

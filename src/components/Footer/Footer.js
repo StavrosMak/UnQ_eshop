@@ -1,10 +1,9 @@
 import './Footer.css'
 import logo from '../../Images/logo2.png'
 import { Link } from "react-router-dom"
-import categories from "../data/CategoryData"
 import Social from '../data/Social_Info.json'
 import ContactInfo from '../data/Contact_Info.json'
-
+import routes from '../data/Links.json'
 export default function Footer() {
 
     return (
@@ -24,12 +23,21 @@ export default function Footer() {
                 </div>
                 <div className='Footerlinks'>
                     <ul className='FooterItem'>
-                        <li> <h3>Categories</h3> </li>
+                        <h3>Explore:</h3>
+                        {routes.map((item, index) => {
+                            return (
+                                <li key={index}>
+                                    <Link to={item.url}>{item.title}</Link>
+                                </li>
+
+                            )
+                        })}
+                        {/* <li> <h3>Categories</h3> </li>
                         {categories.map(category => (
                             <li key={category.categoryID}>
                                 <Link to={category.categoryUrl}>{category.CategoryTitle}</Link>
                             </li>
-                        ))}
+                        ))} */}
                     </ul>
 
                     <div className='FooterItem contactInfo'>
