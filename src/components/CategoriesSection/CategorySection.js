@@ -12,7 +12,7 @@ export default function CategorySection() {
                     <div className='categoryCard' key={category.categoryID}>
                         <Link to={category.categoryUrl}>
                             <div className='categoryCardImage'>
-                                <img src={category.categoryImage} alt='' />
+                                <img src={category.categoryImage} alt='' loading='lazy' />
                             </div>
                             <div className='categoryTitle'>{category.CategoryTitle}</div>
                         </Link>

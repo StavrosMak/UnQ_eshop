@@ -12,15 +12,15 @@ export default function SignUpForm(props) {
             </div>
             <form autoComplete="off">
                 <label>
-                    Name:
+                    <p>Name:</p>
                     <input type="text" name="name" placeholder='username' />
                 </label>
                 <label>
-                    Email:
+                    <p>Email:</p>
                     <input type="email" name="email" placeholder='example@email.com' />
                 </label>
                 <label>
-                    Password:
+                    <p>Password:</p>
                     <input type="password" placeholder='password' required />
                 </label>
 

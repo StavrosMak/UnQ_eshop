@@ -31,6 +31,7 @@
     overflow-x: scroll;
     justify-content: center;
     width: 100vw;
+    margin-bottom: 5em;
 }
 
 .totalCost {
@@ -168,7 +169,7 @@
     }
 
     .totalCost {
-        bottom: 0;
+         bottom: 0;
     }
 
     .closeCartSection {

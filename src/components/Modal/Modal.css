@@ -51,6 +51,7 @@
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
     padding: 0.2em;
+    height: 30px;
 }
 
 
@@ -103,19 +104,21 @@
 
 @media screen and (max-width:768px) {
 
+    .Modal label p {
+        text-align: center;
+        padding: 0.2em 0;
+    }
 
     .ModalContent {
         margin: .8em .5em;
-        justify-content: center;
         align-content: center;
-        height: 550px;
+        height: 650px;
     }
 
     .signInHeader {
         justify-content: space-between;
         font-size: .7em;
         margin: 1em 0;
-
     }
 
     .changeAuthFormBtn {
