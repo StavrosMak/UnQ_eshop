@@ -23,7 +23,7 @@ export default function Cart() {
             </div>
             <div className="productCartInfo">
               <h2 className="cartProductTitle">{cartItem.title}</h2>
-              <div className="cartProductPrice">{cartItem.price * cartItem.quantity} $</div>
+              <div className="cartProductPrice">{(cartItem.price * cartItem.quantity).toFixed(2)} $</div>
               <div className="quantityCartSection">
                 <p>
                   Quantity:
