@@ -25,6 +25,7 @@
 .contactInfo {
     display: flex;
     flex-direction: column;
+    height: 100%;
     background-color: black;
     color: #fff;
 }
